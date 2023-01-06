@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    color: white;
+    border: none;
+    background-color: rgb(242, 38, 72);
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+/* main styles */
+img{
+    border-radius: 5px;
+}
+
+.header{
+    background-image: url(../images/donation12.png);
+    background-color: lightgray;
+    background-blend-mode: multiply;
+    height: 100%;
+    padding: 300px 100px;
+}
+/* banner styles */
+.banner{
+    color:white;
+    text-align: center;
+    
+}
+.banner-title{
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.banner-description{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+/* donation details and amount */
+.donation{
+    text-align: center;
+}
+.donation-details{
+   
+    margin-top: 130px;
+}
+.donation-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.donation-description{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.donation-amount{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.amount{
+    color: rgb(126, 123, 121);
+    background-color: rgba(150, 150, 150, 0.089);
+    font-size: 2em;
+    font-weight: 1000;
+    padding: 30px 20px;
+    border: 3px solid transparent;
+    border-radius: 5px;
+}
+.amount:hover{
+    cursor: pointer;
+    color: rgb(242, 38, 72);
+    background-color: rgba(242, 38, 72, 0.108);
+    border: 3px solid rgb(242, 38, 72) ;
+}
+.amount-number{
+    margin-top: 80px;
+}
+.donate-amu{
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgba(128, 128, 128, 0.592);
+    width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+/* donate container styles */
+.donate-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 130px;
+    text-align: center;
+}
+.donate-description{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.donate-plan{
+
+    margin-top: 130px;
+}
+
+.donate-containers{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 130px;
+}
+.d-containers1{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(2, 109, 109, 0.1);
+}
+.d-containers2{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(255, 192, 203, 0.197);
+}
+.d-containers3{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: lightyellow;
+}
+.donate-containers .title3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.donate-containers .description{
+    color: lightslategray;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+/* section4 */
+.donate-det1{
+    display: flex;
+    gap: 140px;
+    justify-items: center;
+    margin: 0px 150px;
+}
+.donate-det1 h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0px 0px 30px 0px;
+}
+.donate-det1 p{
+    color: rgb(169, 164, 164);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.donate-det2{
+    display: flex;
+    gap: 140px;
+    justify-items: center;
+    margin: 130px 150px;
+}
+.donate-det2 h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0px 0px 30px 0px;
+}
+.donate-det2 p{
+    color: rgb(169, 164, 164);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+/* subscribe section */
