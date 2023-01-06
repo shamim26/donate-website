@@ -7,10 +7,11 @@
 .btn-primary{
     color: white;
     border: none;
+    cursor: pointer;
     background-color: rgb(242, 38, 72);
-    font-size: 20px;
-    font-weight: 700px;
-    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 20px;
     border-radius: 3px;
 }
 /* main styles */
@@ -20,7 +21,7 @@ img{
 
 .header{
     background-image: url(../images/donation12.png);
-    background-color: lightgray;
+    background-color: gray;
     background-blend-mode: multiply;
     height: 100%;
     padding: 300px 100px;
@@ -39,7 +40,7 @@ img{
 .banner-description{
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 /* donation details and amount */
 .donation{
@@ -168,7 +169,7 @@ img{
     display: flex;
     gap: 140px;
     justify-items: center;
-    margin: 130px 150px;
+    margin: 130px 200px;
 }
 .donate-det2 h1{
     font-size: 45px;
@@ -182,3 +183,70 @@ img{
     margin-bottom: 20px;
 }
 /* subscribe section */
+.subscribe{
+    margin: 0px 350px;
+    text-align: center;
+}
+.sub{
+    
+}
+.sub h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sub p{
+    color: rgb(99, 97, 97);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.sub-in{
+    background-color: lightyellow;
+    padding: 75px 180px;
+    border-radius: 3px;
+    display: flex;
+    
+}
+.email{
+    background-color: rgba(128, 128, 128, 0.479);
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border-width: 0px;
+    border-radius: 5px 0 0 5px;
+    outline: 0;
+    padding: 10px 45px;
+
+}
+.submit{
+    cursor: pointer;
+    background-color: rgb(242, 38, 72);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    outline: 0;
+    border: none;
+    padding: 10px 55px;
+    border-radius: 0 5px 5px 0;
+}
+/* footer */
+
+ .motivation{
+    background-color: black;
+    margin-top: 130px;
+    padding: 70px 0;
+    text-align: center;
+ }
+ .motivation h1{
+    color: rgb(242, 38, 72);
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-weight: 400;
+ }
+ .motivation p{
+    color: white;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 100;
+ }
